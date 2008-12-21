@@ -22,3 +22,13 @@ get '/stylesheet.css' do
   sass :stylesheet
 end
 
+
+not_found do
+  haml :'404'
+end
+
+error do
+  haml :'500'
+end
+
+

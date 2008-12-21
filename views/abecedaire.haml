@@ -1,12 +1,14 @@
 
-%h2 Abécédaire des pensionnaires
+#abecedaire
 
-- for classe, animaux in @classes do
-  %h3= classe
-  
-  - for animal in animaux
-    %ul    
-      %li
-        %a{:href => "/animal/#{animal.id}"}
-          = animal.nom
+  %h2 Abécédaire des pensionnaires
+
+  - for classe, animaux in @classes do
+    %h3= classe
+    
+    - for animal in animaux
+      %ul    
+        %li
+          %a{:href => "/animal/#{animal.id}"}
+            = animal.nom
 
