@@ -1,0 +1,34 @@
+!!!
+%html
+  %head
+    %title
+      Orouxgami
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}
+    %link{:rel => 'stylesheet', :href => '/stylesheet.css', :type => 'text/css'}
+  %body
+    #header
+      %h1
+        %a{:href => "/"}
+          Zoorouxgami
+      %p
+        Blabla ici.
+
+    #menu
+      %ul
+        %li
+          %a{:href => "/abecedaire"}
+            Abécédaire des pensionnaires
+        %li
+          %a{:href => "/auteurs"}
+            Auteurs
+        %li
+          %a{:href => "/faq"}
+            Faq
+        %li
+          %a{:href => "/nous-ecrire"}
+            Nous écrire
+            
+            
+    = yield
+
+

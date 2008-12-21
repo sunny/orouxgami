@@ -1,0 +1,32 @@
+%h2= @animal.nom
+
+- if @animal.precedant
+  %p#precedent
+    %a{:href => "/animal/#{@animal.precedant.id}", :title => @animal.precedant.nom }
+      Précédent
+
+- if @animal.suivant
+  %p#suivant
+    %a{:href => "/animal/#{@animal.suivant.id}", :title => @animal.suivant.nom }
+      Suivant
+      
+%dl
+  %dt Nom
+  %dd= @animal.nom
+  
+  %dt Classe
+  %dd= @animal.classe
+  
+  %dt Plieur
+  %dd= @animal.plieur
+  
+  %dt Photographe
+  %dd= @animal.photographe
+  
+  %dt Pelage
+  %dd= @animal.pelage
+  
+  %dt Provenance
+  %dd
+    %a{:href => @animal.provenance}= @animal.provenance
+

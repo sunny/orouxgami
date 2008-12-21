@@ -18,6 +18,11 @@ class Animal
   def suivant
     Animal.all[@index+1]
   end
+  
+  def <=>(animal)
+    nom <=> animal.nom
+  end
+    
  
   def self.all
     return @all unless @all.nil?
@@ -48,7 +53,9 @@ class Animal
       classes[animal.classe] = [] if classes[animal.classe].nil?
       classes[animal.classe].push animal
     end
-    classes
+    classes.map do |key, animals|
+      [key, animals.sort]
+    end.sort
   end
 end
 
