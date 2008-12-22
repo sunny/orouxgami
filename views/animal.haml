@@ -25,10 +25,11 @@
     %dt Photographe
     %dd= @animal.photographe
 
-    %dt Pelage
-    %dd= @animal.pelage
-
-    %dt Provenance
-    %dd
-      %a{:href => @animal.provenance}= @animal.provenance
+    - if @animal.pelage
+      %dt Pelage
+      %dd= @animal.pelage
+    - if @animal.provenance
+      %dt Provenance
+      %dd
+        %a{:href => @animal.provenance}= @animal.provenance
 
