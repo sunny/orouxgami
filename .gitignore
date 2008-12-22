@@ -1,2 +1,4 @@
 public/stylesheet.css
-
+config.yml
+thin.*.log
+thin.*.pid

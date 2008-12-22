@@ -2,14 +2,23 @@ require 'open-uri'
 
 namespace :thin do
   def thin(command)
-    system "sudo thin -s 2 -C config.yml -R config.ru #{command}"
+    system "sudo thin -s 2 -C config.yml -R config.ru #{command}" or abort
   end
 
+  file('config.yml') {
+    cp 'config.yml.example', 'config.yml'
+    abort "Please edit config.yml before continuing"
+  }
+
   desc 'Start Thin'
-  task(:start => :sassify) { thin :start }
+  task(:start => [:sassify, 'config.yml']) {
+    thin :start
+  }
 
   desc 'Stop Thin'
-  task(:stop) { thin :stop }
+  task(:stop) {
+    thin :stop
+  }
 
   desc 'Restart Thin'
   task :restart => [:stop, :start]
@@ -25,7 +34,7 @@ end
 
 desc 'Turn the sass stylesheets into css'
 task :sassify do
-  system "sass views/stylesheet.sass > public/stylesheet.css"
+  system "sass views/stylesheet.sass > public/stylesheet.css" or abort
 end
 
 

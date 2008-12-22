@@ -1,0 +1,15 @@
+---
+    environment: production
+    chdir: /path/to/orouxgami
+    address: 127.0.0.1
+    user: www-data
+    group: www-data
+    port: 4567
+    pid: /path/to/orouxgami/thin.pid
+    rackup: /path/to/orouxgami/config.ru
+    log: /path/to/orouxgami/thin.log
+    max_conns: 1024
+    timeout: 30
+    max_persistent_conns: 512
+    daemonize: true
+
