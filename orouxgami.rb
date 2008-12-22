@@ -17,6 +17,10 @@ get '/abecedaire' do
   haml :abecedaire
 end
 
+get '/faq' do
+  haml :faq
+end
+
 not_found do
   haml :'404'
 end
@@ -33,3 +37,4 @@ configure :development do
     sass :stylesheet
   end
 end
+
