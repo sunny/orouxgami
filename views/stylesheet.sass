@@ -6,8 +6,13 @@ body
   font: 1em Helvetica, sans-serif
   text-align: center
 
-a img
-  border: none
+a
+  color: orange
+
+
+  img
+    border: none
+
 
 #page
   width: 794px
@@ -65,3 +70,38 @@ a img
       &.nous-ecrire a
         background-image: url(/images/nous-ecrire.png)
         width: 105px
+
+#animal
+
+  #precedent a, #suivant a
+    height: 62px
+    text-indent: -9000em
+    &:hover
+      opacity: .5
+
+  #precedent a
+    float: left
+    width: 115px
+    background: url(/images/leftprints.png) no-repeat
+
+  #suivant a
+    float: right
+    width: 115px
+    background: url(/images/rightprints.png) no-repeat
+
+  h2
+    display: none
+
+  #pancarte
+    margin-left: 200px
+
+    dt
+      float: left
+      clear: both
+      width: 8em
+      margin-right: 1em
+      text-align: right
+    dd
+      margin: 0
+      float: left
+

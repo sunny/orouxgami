@@ -1,32 +1,34 @@
-%h2= @animal.nom
+#animal
 
-- if @animal.precedant
-  %p#precedent
-    %a{:href => "/animal/#{@animal.precedant.id}", :title => @animal.precedant.nom }
-      Précédent
+  %h2= @animal.nom
 
-- if @animal.suivant
-  %p#suivant
-    %a{:href => "/animal/#{@animal.suivant.id}", :title => @animal.suivant.nom }
-      Suivant
-      
-%dl
-  %dt Nom
-  %dd= @animal.nom
-  
-  %dt Classe
-  %dd= @animal.classe
-  
-  %dt Plieur
-  %dd= @animal.plieur
-  
-  %dt Photographe
-  %dd= @animal.photographe
-  
-  %dt Pelage
-  %dd= @animal.pelage
+  - if @animal.precedant
+    %p#precedent
+      %a{:href => "/animal/#{@animal.precedant.id}", :title => "Précédent : "+@animal.precedant.nom, :accesskey => 'P'}
+        Précédent
 
-  %dt Provenance
-  %dd
-    %a{:href => @animal.provenance}= @animal.provenance
+  - if @animal.suivant
+    %p#suivant
+      %a{:href => "/animal/#{@animal.suivant.id}", :title => "Suivant : "+@animal.suivant.nom, :accesskey => 'N' }
+        Suivant
+
+  %dl#pancarte
+    %dt Nom
+    %dd= @animal.nom
+
+    %dt Classe
+    %dd= @animal.classe
+
+    %dt Plieur
+    %dd= @animal.plieur
+
+    %dt Photographe
+    %dd= @animal.photographe
+
+    %dt Pelage
+    %dd= @animal.pelage
+
+    %dt Provenance
+    %dd
+      %a{:href => @animal.provenance}= @animal.provenance
 
