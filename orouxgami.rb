@@ -19,6 +19,9 @@ get '/abecedaire' do
   haml :abecedaire
 end
 
+get '/faq' do
+  haml :faq
+end
 
 get '/stylesheet.css' do
   content_type 'text/css', :charset => 'utf-8'
