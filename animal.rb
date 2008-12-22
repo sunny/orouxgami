@@ -1,7 +1,6 @@
 require 'open-uri'
 require 'yaml'
-ANIMAUX_YML = 'http://edit.sunfox.org/zoorouxgami.yml/txt'
-
+ANIMAUX_YML = File.dirname(__FILE__) + '/data/zoo.yml'
 class Animal
   attr_accessor :id, :nom, :classe, :plieur, :photographe, :pelage, :provenance, :index
   def initialize(options)
