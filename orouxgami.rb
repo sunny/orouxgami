@@ -25,16 +25,15 @@ not_found do
   haml :'404'
 end
 
+get '/stylesheet.css' do
+  content_type 'text/css', :charset => 'utf-8'
+  sass :stylesheet
+end
+
 configure :production do
   error do
     haml :'500'
   end
 end
 
-configure :development do
-  get '/stylesheet.css' do
-    content_type 'text/css', :charset => 'utf-8'
-    sass :stylesheet
-  end
-end
 

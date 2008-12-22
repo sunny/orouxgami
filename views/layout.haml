@@ -5,6 +5,7 @@
       Orouxgami
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}
     %link{:rel => 'stylesheet', :href => '/stylesheet.css', :type => 'text/css'}
+
   %body
     #page
       #header
@@ -16,15 +17,17 @@
 
       #menu
         %ul
-          %li
+          %li.abecedaire
             %a{:href => "/abecedaire"}  Abécédaire des pensionnaires
-          %li
+          %li.zoo-map
+            %a{:href => "/carte"}       Zoo Map
+          %li.auteurs
             %a{:href => "/auteurs"}     Auteurs
-          %li
+          %li.faq
             %a{:href => "/faq"}         Faq
-          %li
+          %li.nous-ecrire
             %a{:href => "/nous-ecrire"} Nous écrire
-              
+
       #contents
         = yield
 
