@@ -1,9 +1,14 @@
+THIN = 'sudo thin -s 2 -C config.yml -R config.ru'
+
 task :start do
-  system %(sudo thin -s 2 -C config.yml -R config.ru start)
+  system "#{THIN} start"
 end
 
 task :stop do
-  system %(sudo thin -s 2 -C config.yml -R config.ru stop)
+  system "#{THIN} stop"
 end
 
-task :restart => [:stop, :start]
+task :restart do
+  system "#{THIN} restart"
+end
+
