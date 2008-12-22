@@ -2,8 +2,6 @@ require 'rubygems'
 require 'sinatra'
 require 'animal'
 
-
-
 get '/' do
   @animal = Animal.last
   haml :animal
@@ -19,12 +17,6 @@ get '/abecedaire' do
   haml :abecedaire
 end
 
-
-get '/stylesheet.css' do
-  content_type 'text/css', :charset => 'utf-8'
-  sass :stylesheet
-end
-
 not_found do
   haml :'404'
 end
@@ -35,3 +27,9 @@ configure :production do
   end
 end
 
+configure :development do
+  get '/stylesheet.css' do
+    content_type 'text/css', :charset => 'utf-8'
+    sass :stylesheet
+  end
+end
