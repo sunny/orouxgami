@@ -1,6 +1,8 @@
 require 'open-uri'
 require 'yaml'
+
 ANIMAUX_YML = File.dirname(__FILE__) + '/data/zoo.yml'
+
 class Animal
   attr_accessor :id, :nom, :classe, :plieur, :photographe, :pelage, :provenance, :index
   def initialize(options)
@@ -28,7 +30,7 @@ class Animal
     i = -1
     yaml = YAML.load(open(ANIMAUX_YML))
     @all = yaml['animaux'].map do |attributes|
-      Animal.new(attributes.merge('index' => i += 1)
+      Animal.new(attributes.merge('index' => i += 1))
     end
   end
 
