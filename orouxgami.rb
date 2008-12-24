@@ -25,6 +25,10 @@ get '/faq' do
   haml :faq
 end
 
+get '/carte' do
+  haml :carte
+end
+
 not_found do
   haml :'404'
 end
