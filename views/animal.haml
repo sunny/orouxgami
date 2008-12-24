@@ -16,8 +16,10 @@
     %dt Nom
     %dd= @animal.nom
 
-    %dt Classe
-    %dd= @animal.classe
+    %dt Taxonomie
+    %dd
+      %a{:href => "/taxonomie/#{@animal.taxonomy.id}"}
+        = @animal.taxonomy
 
     %dt Plieur
     %dd= @animal.plieur
