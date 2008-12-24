@@ -32,7 +32,8 @@ get '/carte' do
 end
 
 not_found do
-  haml :'404'
+  @error_code = 404
+  haml :'error'
 end
 
 get '/stylesheet.css' do
@@ -42,7 +43,8 @@ end
 
 configure :production do
   error do
-    haml :'500'
+    @error_code = 500
+    haml :'error'
   end
 end
 
