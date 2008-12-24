@@ -1,16 +1,15 @@
 #taxonomies
-  %h2 Taxonomies des pensionnaires
+  %h2 Taxonomie des pensionnaires
   %ul
     - for taxonomy in @taxonomies do
       %li
         %a{:href => "/taxonomie/#{taxonomy.id}"}
           = strong_capital_letter taxonomy.name
 
-
 #taxonomie
-  %h2= @taxonomy
+  %h2= @title
   %ul
-    - for animal in @animals do
+    - for animal in @animals
       %li
         %a{:href => "/animal/#{animal.id}"}
           = strong_capital_letter animal.nom

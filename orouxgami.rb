@@ -17,13 +17,15 @@ end
 get '/taxonomie' do
   @animals = Animal.all.sort
   @taxonomies = Taxonomy.all.sort
-  haml :abecedaire
+  @title = "Abécédaire des pensionnaires"
+  haml :taxonomy
 end
 
 get '/taxonomie/:id' do
   @taxonomy = Taxonomy.find_by_id(params[:id]) or raise Sinatra::NotFound
   @animals = @taxonomy.animals
   @taxonomies = Taxonomy.all
+  @title = @taxonomy.name
   haml :taxonomy
 end
 
