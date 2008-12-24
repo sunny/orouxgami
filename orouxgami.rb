@@ -14,17 +14,17 @@ get '/animal/:id' do
   haml :animal
 end
 
+get '/taxonomie' do
+  @animals = Animal.all.sort
+  @taxonomies = Animal.taxonomies.sort
+  haml :abecedaire
+end
+
 get '/taxonomie/:id' do
   @taxonomy = params[:id]
   @animals = Animal.find_by_taxonomy(@taxonomy).sort
   @taxonomies = Animal.taxonomies.sort
   haml :taxonomy
-end
-
-get '/abecedaire' do
-  @animals = Animal.all.sort
-  @taxonomies = Animal.taxonomies.sort
-  haml :abecedaire
 end
 
 get '/auteurs' do
