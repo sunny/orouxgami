@@ -45,6 +45,10 @@ get '/liens' do
   haml :liens
 end
 
+get '/merci' do
+  haml :merci
+end
+
 get '/nous-ecrire' do
   haml :nousecrire
 end
@@ -56,7 +60,7 @@ post '/nous-ecrire' do
     :subject => "[Orouxgami] Nouveau message",
     :message => "Name: #{params[:name]}\nEmail: #{params[:email]}\nMessage: #{params[:message]}"
   )
-  haml :merci
+  redirect '/merci'
 end
 
 not_found do
