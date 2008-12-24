@@ -4,12 +4,16 @@ require 'yaml'
 ANIMAUX_YML = File.dirname(__FILE__) + '/data/zoo.yml'
 
 class Animal
-  attr_accessor :id, :nom, :classe, :plieur, :photographe, :pelage, :provenance, :index
+  attr_accessor :nom, :classe, :plieur, :photographe, :pelage, :provenance, :index
   def initialize(options)
     options.each do |k, v|
       self.send("#{k}=", v)
     end
     raise ArgumentError if @index.nil?
+  end
+  
+  def id
+    to_id(@nom)
   end
 
   def taxonomy
@@ -33,7 +37,7 @@ class Animal
     return @all unless @all.nil?
     i = -1
     yaml = YAML.load(open(ANIMAUX_YML))
-    @all = yaml['animaux'].map do |attributes|
+    @all = yaml.map do |attributes|
       Animal.new(attributes.merge('index' => i += 1))
     end
   end
