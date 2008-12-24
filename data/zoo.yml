@@ -1,248 +1,280 @@
-grue:
-  nom: Grue
-  classe: Oiseaux
-  plieur: kerdekel
-  photographe: michel_v
-  pelage: tract de concert
-  provenance: http://www.origami-club.com/en/
 
-corbeau:
-  nom: Corbeau
-  classe: Oiseaux
-  plieur: kerdekel
-  photographe: michel_v
-  pelage: papier origami
-  provenance: http://www.origami-club.com/en/
+animaux:
+  -
+    id: grue
+    nom: Grue
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: tract de concert
+    provenance: http://www.origami-club.com/en/
 
-chouette:
-  nom: Chouette
-  classe: Oiseaux
-  plieur: kerdekel
-  photographe: michel_v
-  pelage: tract de concert
-  provenance:
+  -
+    id: corbeau
+    nom: Corbeau
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: papier origami
+    provenance: http://www.origami-club.com/en/
 
-cochon:
-  nom: Cochon
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage: papier origami
-  provenance: http://www.origami-club.com/en/
+  -
+    id: chouette
+    nom: Chouette
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: tract de concert
+    provenance:
 
-souris:
-  nom: Souris 
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: cochon
+    nom: Cochon
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: papier origami
+    provenance: http://www.origami-club.com/en/
 
-ecureuil:
-  nom: Écureuil
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: souris
+    nom: Souris
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-renard:
-  nom: Renard 
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  - id: ecureuil
+    nom: Écureuil
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-baleine:
-  nom: Baleine
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: renard
+    nom: Renard
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-escargot:
-  nom: Escargot
-  classe: Invertébrés
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: baleine
+    nom: Baleine
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-herisson:
-  nom: Hérisson
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: escargot
+    nom: Escargot
+    classe: Invertébrés
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-poisson-rouge:
-  nom: Poisson rouge
-  classe: Poissons
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: herisson
+    nom: Hérisson
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-grenouille:
-  nom: Grenouille
-  classe: Reptiles
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: poisson-rouge
+    nom: Poisson rouge
+    classe: Poissons
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-lapin:
-  nom: Lapin 
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: grenouille
+    nom: Grenouille
+    classe: Reptiles
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-pinguoin:
-  nom: Pinguoin
-  classe: Oiseaux
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: lapin
+    nom: Lapin
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-lion:
-  nom: Lion 
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: pinguoin
+    nom: Pinguoin
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-lievre-et-tortue:
-  nom: Lièvre et Tortue
-  classe: Classé X
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: lion
+    nom: Lion
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-chat:
-  nom: Chat 
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: lievre-et-tortue
+    nom: Lièvre et Tortue
+    classe: Classé X
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-scorpion:
-  nom: Scorpion
-  classe: Invertébrés
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: chat
+    nom: Chat
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-crabe:
-  nom: Crabe 
-  classe: Invertébrés
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: scorpion
+    nom: Scorpion
+    classe: Invertébrés
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-phoenix-chinois:
-  nom: Phoenix chinois
-  classe: Classé X
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: crabe
+    nom: Crabe
+    classe: Invertébrés
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-criquet:
-  nom: Criquet 
-  classe: Invertébrés
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: phoenix-chinois
+    nom: Phoenix chinois
+    classe: Classé X
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-dromadaire:
-  nom: Dromadaire
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: criquet
+    nom: Criquet
+    classe: Invertébrés
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-chauve-souris:
-  nom: Chauve-souris
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: dromadaire
+    nom: Dromadaire
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-langouste:
-  nom: Langouste
-  classe: Invertébrés
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: chauve-souris
+    nom: Chauve-souris
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-renne:
-  nom: Renne 
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: langouste
+    nom: Langouste
+    classe: Invertébrés
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-girafe:
-  nom: Girafe 
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: renne
+    nom: Renne
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-paon:
-  nom: Paon 
-  classe: Oiseaux
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: girafe
+    nom: Girafe
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-singe-gibbon:
-  nom: Singe Gibbon
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: paon
+    nom: Paon
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-dragon:
-  nom: Dragon
-  classe: Classé X
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: singe-gibbon
+    nom: Singe Gibbon
+    classe: Mammifères
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-papillon:
-  nom: Papillon
-  classe: Invertébrés
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: dragon
+    nom: Dragon
+    classe: Classé X
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 
-plésiosaure:
-  nom: Plésiosaure
-  classe: Espèces Eteintes 
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
+  -
+    id: papillon
+    nom: Papillon
+    classe: Invertébrés
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
+
+  -
+    id: plésiosaure
+    nom: Plésiosaure
+    classe: Espèces Éteintes
+    plieur: kerdekel
+    photographe: michel_v
+    pelage:
+    provenance: http://www.origami-club.com/en/
 

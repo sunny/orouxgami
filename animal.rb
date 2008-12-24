@@ -25,13 +25,10 @@ class Animal
  
   def self.all
     return @all unless @all.nil?
-    i = 0
-    animaux = YAML.load(open(ANIMAUX_YML))
-    @all = animaux.map do |k, attributes|
-      attributes["id"] = k
-      attributes["index"] = i
-      i += 1
-      Animal.new(attributes)
+    i = -1
+    yaml = YAML.load(open(ANIMAUX_YML))
+    @all = yaml['animaux'].map do |attributes|
+      Animal.new(attributes.merge('index' => i += 1)
     end
   end
 
