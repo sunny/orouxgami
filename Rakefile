@@ -34,7 +34,7 @@ end
 
 desc 'Turn the sass stylesheets into css'
 task :sassify do
-  system "sass views/stylesheet.sass > public/stylesheet.css" or abort
+  system "sass --style compressed views/stylesheet.sass > public/stylesheet.css" or abort
 end
 
 
