@@ -17,6 +17,7 @@ end
 get '/taxonomie/:id' do
   @taxonomy = params[:id]
   @animals = Animal.find_by_taxonomy(@taxonomy).sort
+  @taxonomies = Animal.taxonomies.sort
   haml :taxonomy
 end
 
