@@ -40,6 +40,7 @@ get '/carte' do
 end
 
 not_found do
+  @code = 404
   haml :'error'
 end
 
@@ -50,6 +51,7 @@ end
 
 configure :production do
   error do
+    @code = 500
     haml :'error'
   end
 end
