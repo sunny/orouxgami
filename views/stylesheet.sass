@@ -1,18 +1,31 @@
+!orange = #d17015
+!pale = #c8ae92
+!pale2 = #ffeed6
+!dark = #5d341d
+!grey = #857a70
+
+!background = !pale
+!text = black
+!titles = !dark
+
+
 body
   padding: 0 5em
   margin: 0
-  background: black
-  color: white
+  background= !background
+  color= !text
   font: 1em Helvetica, sans-serif
   text-align: center
 
 a
-  color: orange
+  color= !dark
 
 
   img
     border: none
 
+h2, h3, h4, h5, h6, strong
+  color= !titles
 
 #page
   width: 794px
@@ -28,8 +41,9 @@ a
       text-indent: -9000em
       background: url(/images/title.png) no-repeat top left
       height: 103px
-      color: orange
+      color= !orange
   p
+    color= !pale
     display: none
 
 #menu
@@ -46,7 +60,7 @@ a
       a
         display: inline-block
         text-indent: -9000em
-        color: orange
+        color= !dark
         line-height: 22px
         height: 22px
         margin-right: 20px
@@ -72,36 +86,64 @@ a
         width: 105px
 
 #animal
+  position: relative
 
   #precedent a, #suivant a
+    position: absolute
+    top: 0
     height: 62px
     text-indent: -9000em
     &:hover
       opacity: .5
 
   #precedent a
-    float: left
+    left: 0
     width: 115px
     background: url(/images/leftprints.png) no-repeat
 
   #suivant a
-    float: right
+    right: 0
     width: 115px
     background: url(/images/rightprints.png) no-repeat
 
   h2
     display: none
 
-  #pancarte
-    margin-left: 200px
+#pancarte
+  background: url(/images/pancarte.png) no-repeat top left
+  margin-left: 200px
+  margin-right: 200px
+  padding: 20px 0
+  height: 460px
+  
 
-    dt
-      float: left
-      clear: both
-      width: 8em
-      margin-right: 1em
-      text-align: right
-    dd
-      margin: 0
-      float: left
+  dt
+    float: left
+    clear: both
+    width: 8em
+    margin-right: 1em
+    text-align: right
+  dd
+    margin: 0
+    float: left
 
+.auteur
+  background= !dark
+  color: white
+  padding: .1em 1em 1em 1em
+  margin: 1em 0 1em 0
+  -moz-border-radius: .5em
+  -webkit-border-radius: .5em
+  position: relative
+
+  h3, p, blockquote
+    margin-left: 170px
+    margin-bottom: 0
+  
+  h3
+    color: white
+  
+  .avatar
+    position: absolute
+    top: .5em
+    margin: 0
