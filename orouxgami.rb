@@ -17,6 +17,10 @@ get '/abecedaire' do
   haml :abecedaire
 end
 
+get '/auteurs' do
+  haml :auteurs
+end
+
 get '/faq' do
   haml :faq
 end
