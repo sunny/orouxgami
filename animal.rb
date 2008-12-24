@@ -25,7 +25,7 @@ class Animal
   end
   
   def <=>(animal)
-    nom <=> animal.nom
+    id <=> animal.id
   end
     
  
