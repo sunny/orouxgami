@@ -43,6 +43,14 @@ get '/liens' do
   haml :liens
 end
 
+get '/nous-ecrire' do
+  haml :nousecrire
+end
+
+post '/nous-ecrire' do
+  params.inspect
+end
+
 not_found do
   @code = 404
   haml :'error'

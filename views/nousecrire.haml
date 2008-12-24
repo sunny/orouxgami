@@ -1,0 +1,16 @@
+#nous-ecrire
+  %h2 Nous écrire
+  %form{:method => 'post'}
+    %ul
+      %li.name
+        %label{:for => 'name'} Nom
+        %input{:id => 'name', :name => 'name'}
+      %li.email
+        %label{:for => 'email'} Email
+        %input{:id => 'email', :name => 'email'}
+      %li.message
+        %label{:for => 'message'} Message
+        %textarea{:id => 'message', :name => 'message', :cols => 50, :rows => 7}
+      %li.submit
+        %input{:type => 'submit'}
+
