@@ -2,29 +2,19 @@
   %img{:src => "/images/map.png", :alt => "[Carte du zoo]"}
 
   %ul
-    %li#link-oiseaux
-      %a{:href => "/taxonomie/oiseaux", :title => "Oiseaux"} Oiseaux
-    %li#link-reptiles
-      %a{:href => "/taxonomie/reptiles", :title => "Reptiles"} Reptiles
-    %li#link-poissons
-      %a{:href => "/taxonomie/poissons", :title => "Poissons"} Poissons
-    %li#link-invertebres
-      %a{:href => "/taxonomie/invertebres", :title => "Invertébrés"} Invertébrés
-    %li#link-mammiferes
-      %a{:href => "/taxonomie/mammiferes", :title => "Mammifères"} Mammifères
-    %li#link-classe-x
-      %a{:href => "/taxonomie/classe-x", :title => "Classé X"} Classé X
-    %li#link-especes-eteintes
-      %a{:href => "/taxonomie/especes-eteintes", :title => "Espèces Éteintes"} Espèces Éteintes
+    - for taxonomy in Taxonomy.all
+      %li{:id => "link-#{taxonomy.id}"}
+        %a{:href => "/taxonomie/#{taxonomy.id}", :title => taxonomy.name}= taxonomy.name
+
     %li#link-ailleurs-land
       %a{:href => "/liens", :title => "Ailleurs Land"} Ailleurs Land
     %li#link-boite-aux-lettres
-      %a{:href => "/contact", :title => "Boîte aux Lettres"} Boîte aux Lettres
+      %a{:href => "/nous-ecrire", :title => "Boîte aux Lettres"} Boîte aux Lettres
     %li#link-accueil
       %a{:href => "/", :title => "Accueil"} Accueil
     %li#link-staff
       %a{:href => "/auteurs", :title => "Staff"} Staff
     %li#link-faq
-      %a{:href => "/faq/", :title => "Fàq"}
+      %a{:href => "/faq", :title => "Fàq"}
         %abbr Fàq
 
