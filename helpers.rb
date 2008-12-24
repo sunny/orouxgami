@@ -13,22 +13,6 @@ def link_to(link, text = nil)
   "<a href=\"#{link}\">#{text}</a>"
 end
 
-def send_us_email(to, subject, message)
-
-msg = <<END_OF_MESSAGE
-From: #{from_alias} <#{from}>
-To: #{to_alias} <#{to}>
-Subject: #{subject}
-
-#{message}
-END_OF_MESSAGE
-
-  Net::SMTP.start('localhost') do |smtp|
-    smtp.send_message msg, from, to
-  end
-
-end
-
 def send_email(options)
 msg = <<END_OF_MESSAGE
 From: #{options[:from]}

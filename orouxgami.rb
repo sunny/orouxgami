@@ -51,8 +51,8 @@ end
 
 post '/nous-ecrire' do
   send_email(
-    :to => 'negatif@gmail.com',
     :from => 'negatif@gmail.com',
+    :to => 'negatif@gmail.com',
     :subject => "[Orouxgami] Nouveau message",
     :message => "Name: #{params[:name]}\nEmail: #{params[:email]}\nMessage: #{params[:email]}"
   )
