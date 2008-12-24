@@ -8,7 +8,7 @@ def to_id(str)
 end
 
 def link_to(link, text = nil)
-  text = link.gsub(/^.*:\/\//, '') if text.nil?
+  text = link.gsub(/^.*:\/\/(www\.)?/, '') if text.nil?
   "<a href=\"#{link}\">#{text}</a>"
 end
 

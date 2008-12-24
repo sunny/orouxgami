@@ -30,6 +30,5 @@
       %dd= @animal.pelage
     - if @animal.provenance
       %dt Provenance
-      %dd
-        %a{:href => @animal.provenance}= @animal.provenance
+      %dd= link_to @animal.provenance
 
