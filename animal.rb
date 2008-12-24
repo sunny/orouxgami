@@ -33,17 +33,20 @@ class Animal
       i += 1
       Animal.new(attributes)
     end
-    
   end
-  
+
   def self.find(id)
     animal = self.all.find { |animal| animal.id == id }
     raise "No such animal" if animal.nil?
     animal
   end
-  
+
   def self.last
     self.all.last
+  end
+
+  def self.taxonomies
+    self.all.map { |animal| animal.classe }.uniq
   end
 
   def self.classes

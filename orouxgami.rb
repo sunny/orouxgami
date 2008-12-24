@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'animal'
+require 'helpers'
 
 get '/' do
   @animal = Animal.last
@@ -13,7 +14,8 @@ get '/animal/:id' do
 end
 
 get '/abecedaire' do
-  @classes = Animal.classes
+  @animals = Animal.all.sort
+  @taxonomies = Animal.taxonomies.sort
   haml :abecedaire
 end
 

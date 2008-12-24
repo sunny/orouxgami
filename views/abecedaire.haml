@@ -1,14 +1,18 @@
 
+
+#taxonomie
+  %h2 Taxonomie des pensionnaires
+  %ul
+    - for taxonomy in @taxonomies do
+      %li
+        %a{:href => "/taxonomie/#{taxonomy}"}
+          = strong_capital_letter taxonomy
+
 #abecedaire
-
   %h2 Abécédaire des pensionnaires
-
-  - for classe, animaux in @classes do
-    %h3= classe
-    
-    - for animal in animaux
-      %ul    
-        %li
-          %a{:href => "/animal/#{animal.id}"}
-            = animal.nom
+  %ul
+    - for animal in @animals
+      %li
+        %a{:href => "/animal/#{animal.id}"}
+          = strong_capital_letter animal.nom
 
