@@ -36,9 +36,7 @@ class Animal
   end
 
   def self.find(id)
-    animal = self.all.find { |animal| animal.id == id }
-    raise "No such animal" if animal.nil?
-    animal
+    self.all.find { |animal| animal.id == id }
   end
 
   def self.last
@@ -46,18 +44,11 @@ class Animal
   end
 
   def self.taxonomies
-    self.all.map { |animal| animal.classe }.uniq
+    self.all.collect { |animal| animal.classe }.uniq
   end
 
-  def self.classes
-    classes = {}
-    self.all.each do |animal|
-      classes[animal.classe] = [] if classes[animal.classe].nil?
-      classes[animal.classe].push animal
-    end
-    classes.map do |key, animals|
-      [key, animals.sort]
-    end.sort
+  def self.find_by_taxonomy(taxonomy)
+    self.all.select { |animal| animal.classe == taxonomy }.uniq
   end
 end
 
