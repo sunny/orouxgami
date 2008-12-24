@@ -39,6 +39,10 @@ get '/carte' do
   haml :carte
 end
 
+get '/liens' do
+  haml :liens
+end
+
 not_found do
   @code = 404
   haml :'error'
