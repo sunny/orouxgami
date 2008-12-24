@@ -42,6 +42,13 @@ h2, h3, h4, h5, h6, strong
       background: url(/images/title.png) no-repeat top left
       height: 103px
       color= !orange
+      -moz-border-radius: .5em
+      -webkit-border-radius: .5em
+
+      &:focus
+        outline: none
+        background-color= !dark - 50
+
   p
     color= !pale
     display: none
@@ -62,12 +69,15 @@ h2, h3, h4, h5, h6, strong
         text-indent: -9000em
         color= !dark
         line-height: 22px
-        height: 22px
+        height: 20px
         margin-right: 20px
         background-repeat: no-repeat
+        -moz-border-radius: .2em
+        -webkit-border-radius: .2em
 
-        &:hover
-          opacity: .5
+        &:focus
+          outline: 0
+          background-color= !dark - 50
 
       &.abecedaire a
         background-image: url(/images/abecedaire.png)
@@ -93,8 +103,6 @@ h2, h3, h4, h5, h6, strong
     top: 0
     height: 62px
     text-indent: -9000em
-    &:hover
-      opacity: .5
 
   #precedent a
     left: 0
@@ -147,3 +155,102 @@ h2, h3, h4, h5, h6, strong
     position: absolute
     top: .5em
     margin: 0
+
+
+.error
+  text-align: center
+
+
+#carte
+  position: relative
+  ul
+    position: absolute
+    list-style-type: none
+    margin: 0
+    padding: 0
+    top: 17px
+    li
+      a
+        position: absolute
+        display: block
+        height: 100%
+        -moz-border-radius: 10px
+        -webkit-border-radius: 10px
+        text-indent: -9000em
+        
+        &:hover, &:focus, &:active
+          border= 5px dotted !dark
+          opacity: .8
+
+  #link-oiseaux a
+    height: 140px
+    left: 119px
+    top: 86px
+    width: 249px
+  #link-reptiles a
+    height: 198px
+    left: 71px
+    top: 248px
+    width: 232px
+
+  #link-poissons a
+    height: 94px
+    left: 234px
+    top: 402px
+    width: 298px
+
+  #link-invertebres a
+    height: 140px
+    left: 563px
+    top: 384px
+    width: 202px
+
+  #link-mammiferes a
+    height: 217px
+    left: 618px
+    top: 71px
+    width: 189px
+
+  #link-classe-x a
+    height: 100px
+    left: 516px
+    top: 168px
+    width: 100px
+
+  #link-especes-eteintes a
+    height: 100px
+    left: 380px
+    top: 100px
+    width: 135px
+
+  #link-ailleurs-land a
+    height: 59px
+    left: 503px
+    top: 317px
+    width: 136px
+
+  #link-boite-aux-lettres a
+    height: 69px
+    left: 306px
+    top: 294px
+    width: 142px
+
+  #link-accueil a
+    height: 75px
+    left: 292px
+    top: 214px
+    width: 106px
+
+  #link-staff a
+    height: 77px
+    left: 403px
+    top: 204px
+    width: 107px
+
+  #link-faq a
+    height: 50px
+    left: 467px
+    top: 273px
+    width: 150px
+
+
