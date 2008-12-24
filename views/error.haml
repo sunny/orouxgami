@@ -1,10 +1,12 @@
+- error = request.env['sinatra.error'] ? request.env['sinatra.error'].class.code : 404
+
 .error
   %h2
     Erreur
-    = request.env['sinatra.error'].class.code
+    = error
 
   #pancarte
-    %p= "Vous vous trouvez en face d'un specimen d'erreur #{request.env['sinatra.error'].class.code}."
+    %p= "Vous vous trouvez en face d'un specimen d'erreur #{error}."
     %p Ne lui tournez pas le dos, ne faites pas de gestes brusques&hellip;
     %p Reculez doucement, très doucement&hellip;
     %p Voilà. Vous pouvez retourner sur vos pas calmement.
