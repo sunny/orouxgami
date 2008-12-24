@@ -111,6 +111,17 @@ h2, h3, h4, h5, h6, strong
     padding: 0
 
 #animal
+  h2
+    display: none
+
+  #cadre
+    img
+      width: 750px
+      height: 500px
+      background: white
+      border= 5px solid !grey
+
+#pancarte
   position: relative
 
   #precedent a, #suivant a
@@ -137,27 +148,24 @@ h2, h3, h4, h5, h6, strong
     right: 0
     background-image: url(/images/rightprints.png)
 
-  h2
-    display: none
+  dl
+    background: url(/images/pancarte.png) no-repeat top left
+    margin-left: 200px
+    margin-right: 200px
+    padding: 20px 0
+    height: 460px
+    color: black
 
-#pancarte
-  background: url(/images/pancarte.png) no-repeat top left
-  margin-left: 200px
-  margin-right: 200px
-  padding: 20px 0
-  height: 460px
-  color: black
-
-  dt
-    color= !dark
-    float: left
-    clear: both
-    width: 8em
-    margin-right: 1em
-    text-align: right
-  dd
-    margin: 0
-    float: left
+    dt
+      color= !dark
+      float: left
+      clear: both
+      width: 8em
+      margin-right: 1em
+      text-align: right
+    dd
+      margin: 0
+      float: left
 
 .auteur
   background= !dark
@@ -183,10 +191,15 @@ h2, h3, h4, h5, h6, strong
 
 .error
   text-align: center
-  #pancarte
+  .pancarte
     font-size: 14px
     line-height: .9
     padding: 6px 0 0 0
+    background: url(/images/pancarte.png) no-repeat top left
+    margin-left: 200px
+    margin-right: 200px
+    height: 460px
+    color: black
     p
       margin-left: 25px
       margin-right: 37px

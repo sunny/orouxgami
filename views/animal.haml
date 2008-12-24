@@ -1,36 +1,42 @@
 #animal
 
   %h2= @animal.nom
+  
+  #cadre
+    %img{:src => "http://farm4.static.flickr.com/3175/3128613390_715ea15a7b.jpg?v=0", :alt => "[#{@animal.nom}]"}
 
-  - if @animal.precedant
-    %p#precedent
-      %a{:href => "/animal/#{@animal.precedant.id}", :title => "Précédent : "+@animal.precedant.nom, :accesskey => 'P'}
-        Précédent
 
-  - if @animal.suivant
-    %p#suivant
-      %a{:href => "/animal/#{@animal.suivant.id}", :title => "Suivant : "+@animal.suivant.nom, :accesskey => 'N' }
-        Suivant
+  #pancarte
 
-  %dl#pancarte
-    %dt Nom
-    %dd= @animal.nom
+    - if @animal.precedant
+      %p#precedent
+        %a{:href => "/animal/#{@animal.precedant.id}", :title => "Précédent : "+@animal.precedant.nom, :accesskey => 'P'}
+          Précédent
 
-    %dt Taxonomie
-    %dd
-      %a{:href => "/taxonomie/#{@animal.taxonomy.id}"}
-        = @animal.taxonomy
+    - if @animal.suivant
+      %p#suivant
+        %a{:href => "/animal/#{@animal.suivant.id}", :title => "Suivant : "+@animal.suivant.nom, :accesskey => 'N' }
+          Suivant
 
-    %dt Plieur
-    %dd= @animal.plieur
+    %dl
+      %dt Nom
+      %dd= @animal.nom
 
-    %dt Photographe
-    %dd= @animal.photographe
+      %dt Taxonomie
+      %dd
+        %a{:href => "/taxonomie/#{@animal.taxonomy.id}"}
+          = @animal.taxonomy
 
-    - if @animal.pelage
-      %dt Pelage
-      %dd= @animal.pelage
-    - if @animal.provenance
-      %dt Provenance
-      %dd= link_to @animal.provenance
+      %dt Plieur
+      %dd= @animal.plieur
+
+      %dt Photographe
+      %dd= @animal.photographe
+
+      - if @animal.pelage
+        %dt Pelage
+        %dd= @animal.pelage
+      - if @animal.provenance
+        %dt Provenance
+        %dd= link_to @animal.provenance
 
