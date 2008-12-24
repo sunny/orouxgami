@@ -11,7 +11,11 @@ class Animal
     end
     raise ArgumentError if @index.nil?
   end
-  
+
+  def taxonomy
+    Taxonomy.new(@classe)
+  end
+
   def precedant
     Animal.all[@index-1] unless @index == 0
   end
@@ -42,12 +46,8 @@ class Animal
     self.all.last
   end
 
-  def self.taxonomies
-    self.all.collect { |animal| animal.classe }.uniq
-  end
-
   def self.find_by_taxonomy(taxonomy)
-    self.all.select { |animal| animal.classe == taxonomy }.uniq
+    self.all.select { |animal| animal.classe == taxonomy }.sort.uniq
   end
 end
 

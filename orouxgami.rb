@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'animal'
+require 'taxonomy'
 require 'helpers'
 
 get '/' do
@@ -9,21 +10,20 @@ get '/' do
 end
 
 get '/animal/:id' do
-  @animal = Animal.find(params[:id])
-  raise Sinatra::NotFound if @animal.nil?
+  @animal = Animal.find(params[:id]) or raise Sinatra::NotFound
   haml :animal
 end
 
 get '/taxonomie' do
   @animals = Animal.all.sort
-  @taxonomies = Animal.taxonomies.sort
+  @taxonomies = Taxonomy.all.sort
   haml :abecedaire
 end
 
 get '/taxonomie/:id' do
-  @taxonomy = params[:id]
-  @animals = Animal.find_by_taxonomy(@taxonomy).sort
-  @taxonomies = Animal.taxonomies.sort
+  @taxonomy = Taxonomy.find_by_id(params[:id]) or raise Sinatra::NotFound
+  @animals = @taxonomy.animals
+  @taxonomies = Taxonomy.all
   haml :taxonomy
 end
 
