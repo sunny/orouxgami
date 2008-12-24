@@ -50,7 +50,13 @@ get '/nous-ecrire' do
 end
 
 post '/nous-ecrire' do
-  params.inspect
+  send_email(
+    :to => 'negatif@gmail.com',
+    :from => 'negatif@gmail.com',
+    :subject => "[Orouxgami] Nouveau message",
+    :message => "Name: #{params[:name]}\nEmail: #{params[:email]}\nMessage: #{params[:email]}"
+  )
+  haml :merci
 end
 
 not_found do
