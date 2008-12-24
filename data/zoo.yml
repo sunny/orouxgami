@@ -270,11 +270,75 @@ animaux:
     provenance: http://www.origami-club.com/en/
 
   -
-    id: plésiosaure
+    id: plesiosaure
     nom: Plésiosaure
     classe: Espèces Éteintes
     plieur: kerdekel
     photographe: michel_v
     pelage:
     provenance: http://www.origami-club.com/en/
+
+  -
+    id: tortue
+    nom: Tortue
+    classe: Reptiles
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: tract concert
+    provenance: http://www.origami-club.com/en/
+
+  -
+    id: serpent
+    nom: Serpent
+    classe: Reptiles
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: papier imprimerie
+    provenance: http://www.origami-club.com/en/
+
+  -
+    id: moineau
+    nom: Moineau
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: tract concert
+    provenance: http://www.origami-club.com/en/
+
+  -
+    id: hirondelle
+    nom: Hirondelle
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: tract concert
+    provenance: http://www.origami-club.com/en/
+
+  -
+    id: mouette
+    nom: Mouette
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: tract concert
+    provenance: http://www.origami-club.com/en/
+
+  -
+    id: koala
+    nom: Koala 
+    classe: Mammifères 
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: tract concert
+    provenance: http://www.origami-club.com/en/
+
+  -
+    id: poulet
+    nom: Poulet 
+    classe: Oiseaux
+    plieur: kerdekel
+    photographe: michel_v
+    pelage: papier imprimerie
+    provenance: http://www.origami-club.com/en/
+
 
