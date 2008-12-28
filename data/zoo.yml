@@ -250,14 +250,14 @@
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
 
-- nom: Koala 
-  classe: Mammifères 
+- nom: Koala
+  classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
 
-- nom: Poulet 
+- nom: Poulet
   classe: Oiseaux
   plieur: kerdekel
   photographe: michel_v
@@ -361,6 +361,120 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+
+- nom:  Tyrannosaurus Rex
+  classe: Espèces Eteintes
+  plieur: francois
+  photographe: francois
+  pelage: papier origami
+  provenance: http://fr.youtube.com/watch?v=hA7vO2CyK8Q
+
+- nom: Aigle
+  classe: Oiseaux
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+- nom:  Cheval
+  classe: Mammifères
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+- nom:  Dauphin
+  classe: Mammifères
+  plieur: francois
+  photographe: francois
+  pelage: papier origami
+  provenance: http://fr.youtube.com/watch?v=1g-G8DQCwzM
+
+- nom: Fier Dragon
+  classe: Classé X
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+- nom: Mouche
+  classe: Invertébrés
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+- nom:  Girafe Sophie
+  classe: Mammifères
+  plieur: francois
+  photographe: francois
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+- nom: Coccinelle
+  classe: Invertébrés
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+- nom: Lièvre
+  classe: Mammifères
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+- nom: Girafe Gertrude
+  classe: Mammifères
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+
+
+- nom: Poisson Globe
+  classe: Poissons
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://www.origami-club.com/en/
+
+- nom: Anchois
+  classe: Poissons
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://www.origami-club.com/en/
+
+- nom: Elephant Alphonse
+  classe: Mammifères
+  plieur: francois
+  photographe: francois
+  pelage: papier origami
+  provenance: http://fr.youtube.com/watch?v=TViW-KkIGmM
+
+- nom: Machaon
+  classe: Invertébrés
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://www.origami-club.com/en/
+
+- nom: Libellule
+  classe: Invertébrés
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://www.origami-club.com/en/
+
+- nom: Seismosaure
+  classe: Espèces Eteintes
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://www.origami-club.com/en/
+
 
 
 
