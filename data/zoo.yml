@@ -12,13 +12,15 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Chouette
   classe: Oiseaux
   plieur: kerdekel
   photographe: michel_v
   pelage: tract de concert
-  provenance:
+  provenance: http://www.origami-fun.com/
+  provenance_nom: Origami-Fun
 
 - nom: Cochon
   classe: Mammifères
@@ -26,6 +28,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Souris
   classe: Mammifères
@@ -33,6 +36,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Écureuil
   classe: Mammifères
@@ -40,6 +44,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Renard
   classe: Mammifères
@@ -47,6 +52,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Baleine
   classe: Mammifères
@@ -54,6 +60,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Escargot
   classe: Invertébrés
@@ -61,6 +68,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Hérisson
   classe: Mammifères
@@ -68,6 +76,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Poisson rouge
   classe: Poissons
@@ -75,6 +84,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Grenouille
   classe: Reptiles
@@ -82,6 +92,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Lapin
   classe: Mammifères
@@ -89,6 +100,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Pinguoin
   classe: Oiseaux
@@ -103,6 +115,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Lièvre et Tortue
   classe: Classé X
@@ -110,6 +123,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Chat
   classe: Mammifères
@@ -117,6 +131,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Scorpion
   classe: Invertébrés
@@ -124,6 +139,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Crabe
   classe: Invertébrés
@@ -138,6 +154,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Criquet
   classe: Invertébrés
@@ -145,6 +162,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Dromadaire
   classe: Mammifères
@@ -152,6 +170,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Chauve-souris
   classe: Mammifères
@@ -159,6 +178,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Langouste
   classe: Invertébrés
@@ -166,6 +186,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Renne
   classe: Mammifères
@@ -173,6 +194,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Girafe
   classe: Mammifères
@@ -180,6 +202,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Paon
   classe: Oiseaux
@@ -187,6 +210,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Singe Gibbon
   classe: Mammifères
@@ -194,6 +218,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Dragon
   classe: Classé X
@@ -201,6 +226,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Papillon
   classe: Invertébrés
@@ -208,6 +234,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Plésiosaure
   classe: Espèces Éteintes
@@ -215,6 +242,7 @@
   photographe: michel_v
   pelage:
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Tortue
   classe: Reptiles
@@ -222,6 +250,7 @@
   photographe: michel_v
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Serpent
   classe: Reptiles
@@ -229,6 +258,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Moineau
   classe: Oiseaux
@@ -236,6 +266,7 @@
   photographe: michel_v
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Hirondelle
   classe: Oiseaux
@@ -243,6 +274,7 @@
   photographe: michel_v
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Mouette
   classe: Oiseaux
@@ -250,6 +282,7 @@
   photographe: michel_v
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Koala 
   classe: Mammifères 
@@ -257,6 +290,7 @@
   photographe: michel_v
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Poulet 
   classe: Oiseaux
@@ -264,6 +298,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Chien
   classe: Mammifères
@@ -271,6 +306,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Santa Claus
   classe: Classé X
@@ -278,6 +314,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Mouton
   classe: Mammifères
@@ -285,6 +322,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Taureau
   classe: Mammifères
@@ -292,6 +330,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Orque
   classe: Mammifères
@@ -299,6 +338,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Requin
   classe: Poissons
@@ -306,6 +346,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Chaetodontidae
   classe: Poissons
@@ -313,6 +354,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Pterophyllum
   classe: Poissons
@@ -320,6 +362,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Zanclidae
   classe: Poissons
@@ -327,6 +370,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Otarie
   classe: Mammifères
@@ -334,6 +378,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Crocodile
   classe: Reptiles
@@ -341,6 +386,7 @@
   photographe: michel_v
   pelage: Papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Mante Religieuse
   classe: Invertébrés
@@ -348,6 +394,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Abeille
   classe: Invertébrés
@@ -355,6 +402,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Elephant
   classe: Mammifères
@@ -362,6 +410,7 @@
   photographe: michel_v
   pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom:  Tyrannosaurus Rex
   classe: Espèces Eteintes
@@ -369,6 +418,7 @@
   photographe: francois 
   pelage: papier origami
   provenance: http://fr.youtube.com/watch?v=hA7vO2CyK8Q
+  provenance_nom: Youtube
 
 - nom: Aigle 
   classe: Oiseaux
@@ -376,6 +426,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom:  Cheval
   classe: Mammifères
@@ -383,6 +434,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom:  Dauphin
   classe: Mammifères
@@ -390,6 +442,7 @@
   photographe: francois
   pelage: papier origami
   provenance: http://fr.youtube.com/watch?v=1g-G8DQCwzM
+  provenance_nom: Youtube
 
 - nom: Fier Dragon
   classe: Classé X 
@@ -397,6 +450,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom: Mouche
   classe: Invertébrés
@@ -404,6 +458,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom:  Girafe Sophie
   classe: Mammifères
@@ -411,6 +466,7 @@
   photographe: francois
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom: Coccinelle
   classe: Invertébrés
@@ -418,6 +474,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom: Lièvre 
   classe: Mammifères
@@ -425,6 +482,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom: Girafe Gertrude
   classe: Mammifères
@@ -432,6 +490,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
+  provenance_nom: Encyclopédie des origamis
 
 - nom: Poisson Globe
   classe: Poissons
@@ -439,6 +498,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Anchois
   classe: Poissons
@@ -446,6 +506,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Elephant Alphonse
   classe: Mammifères
@@ -453,6 +514,7 @@
   photographe: francois
   pelage: papier origami
   provenance: http://fr.youtube.com/watch?v=TViW-KkIGmM
+  provenance_nom: Youtube
 
 - nom: Machaon
   classe: Invertébrés
@@ -460,6 +522,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Libellule
   classe: Invertébrés
@@ -467,6 +530,7 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Seismosaure
   classe: Espèces Eteintes
@@ -474,4 +538,5 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
