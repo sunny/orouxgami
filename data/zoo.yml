@@ -4,6 +4,7 @@
   photographe: michel_v
   pelage: tract de concert
   provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Corbeau
   classe: Oiseaux
@@ -250,14 +251,14 @@
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
 
-- nom: Koala
-  classe: Mammifères
+- nom: Koala 
+  classe: Mammifères 
   plieur: kerdekel
   photographe: michel_v
   pelage: tract concert
   provenance: http://www.origami-club.com/en/
 
-- nom: Poulet
+- nom: Poulet 
   classe: Oiseaux
   plieur: kerdekel
   photographe: michel_v
@@ -365,11 +366,11 @@
 - nom:  Tyrannosaurus Rex
   classe: Espèces Eteintes
   plieur: francois
-  photographe: francois
+  photographe: francois 
   pelage: papier origami
   provenance: http://fr.youtube.com/watch?v=hA7vO2CyK8Q
 
-- nom: Aigle
+- nom: Aigle 
   classe: Oiseaux
   plieur: kerdekel
   photographe: michel_v
@@ -391,7 +392,7 @@
   provenance: http://fr.youtube.com/watch?v=1g-G8DQCwzM
 
 - nom: Fier Dragon
-  classe: Classé X
+  classe: Classé X 
   plieur: kerdekel
   photographe: michel_v
   pelage: papier origami
@@ -418,7 +419,7 @@
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
 
-- nom: Lièvre
+- nom: Lièvre 
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
@@ -431,7 +432,6 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
-
 
 - nom: Poisson Globe
   classe: Poissons
@@ -474,7 +474,4 @@
   photographe: michel_v
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
-
-
-
 

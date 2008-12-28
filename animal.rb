@@ -4,7 +4,7 @@ require 'yaml'
 ANIMAUX_YML = File.dirname(__FILE__) + '/data/zoo.yml'
 
 class Animal
-  attr_accessor :nom, :classe, :plieur, :photographe, :pelage, :provenance, :index
+  attr_accessor :nom, :classe, :plieur, :photographe, :pelage, :provenance, :provenance_nom, :index
   def initialize(options)
     options.each do |k, v|
       self.send("#{k}=", v)
