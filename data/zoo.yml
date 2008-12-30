@@ -59,24 +59,24 @@
   plieur: kerdekel
   photographe: michel_v
   pelage:
-  provenance: http://www.origami-club.com/en/
-  provenance_nom: Origami-Club
+  provenance: http://www.muji.fr/
+  provenance_nom: Livret Muji
 
 - nom: Escargot
   classe: Invertébrés
   plieur: kerdekel
   photographe: michel_v
   pelage:
-  provenance: http://www.origami-club.com/en/
-  provenance_nom: Origami-Club
+  provenance: http://www.muji.fr/
+  provenance_nom: Livret Muji
 
 - nom: Hérisson
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
   pelage:
-  provenance: http://www.origami-club.com/en/
-  provenance_nom: Origami-Club
+  provenance: http://www.muji.fr/
+  provenance_nom: Livret Muji
 
 - nom: Poisson rouge
   classe: Poissons
@@ -146,7 +146,7 @@
   plieur: kerdekel
   photographe: michel_v
   pelage:
-  provenance: http://www.origami-club.com/en/
+  provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
 
 - nom: Phoenix chinois
   classe: Classé X
@@ -180,7 +180,7 @@
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
-- nom: Langouste
+- nom: Écrevisse
   classe: Invertébrés
   plieur: kerdekel
   photographe: michel_v
@@ -329,8 +329,8 @@
   plieur: kerdekel
   photographe: michel_v
   pelage: papier origami
-  provenance: http://www.origami-club.com/en/
-  provenance_nom: Origami-Club
+  provenance: http://www.muji.fr/
+  provenance_nom: Livret Muji
 
 - nom:  Orque
   classe: Mammifères
