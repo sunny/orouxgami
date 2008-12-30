@@ -34,7 +34,7 @@
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -42,7 +42,7 @@
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -50,7 +50,7 @@
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -58,7 +58,7 @@
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.muji.fr/
   provenance_nom: Livret Muji
 
@@ -66,7 +66,7 @@
   classe: Invertébrés
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.muji.fr/
   provenance_nom: Livret Muji
 
@@ -74,7 +74,7 @@
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.muji.fr/
   provenance_nom: Livret Muji
 
@@ -82,7 +82,7 @@
   classe: Poissons
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -90,7 +90,7 @@
   classe: Reptiles
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -98,7 +98,7 @@
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -106,14 +106,14 @@
   classe: Oiseaux
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
 
 - nom: Lion
   classe: Mammifères
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -121,7 +121,7 @@
   classe: Classé X
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -137,7 +137,7 @@
   classe: Invertébrés
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier imprimerie
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -145,14 +145,14 @@
   classe: Invertébrés
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: papier origami
   provenance: http://livre.fnac.com/a1223720/Zulal-Ayture-Scheele-L-encyclopedie-des-origami
 
 - nom: Phoenix chinois
   classe: Classé X
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: tract concert
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
@@ -160,17 +160,17 @@
   classe: Invertébrés
   plieur: kerdekel
   photographe: michel_v
-  pelage:
+  pelage: tract concert
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
-#- nom: Dromadaire
-#  classe: Mammifères
-#  plieur: kerdekel
-#  photographe: michel_v
-#  pelage:
-#  provenance: http://www.origami-club.com/en/
-#  provenance_nom: Origami-Club
+- nom: Dromadaire
+  classe: Mammifères
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://www.origami-club.com/en/
+  provenance_nom: Origami-Club
 
 - nom: Chauve-souris
   classe: Mammifères
@@ -284,7 +284,15 @@
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
-- nom: Koala 
+- nom: Spermatozoïde 
+  classe: Invertébrés
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://blog.virgule.info/author/kerdekel
+  provenance_nom: Kerdekel
+
+- nom: Koala
   classe: Mammifères 
   plieur: kerdekel
   photographe: michel_v
@@ -524,6 +532,14 @@
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
+- nom: Jackalope
+  classe: Classé X
+  plieur: kerdekel
+  photographe: michel_v
+  pelage: papier origami
+  provenance: http://blog.virgule.info/author/kerdekel
+  provenance_nom: Kerdekel
+
 - nom: Libellule
   classe: Invertébrés
   plieur: kerdekel
@@ -539,4 +555,7 @@
   pelage: papier origami
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
+
+
+
 
