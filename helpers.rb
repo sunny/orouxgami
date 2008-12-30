@@ -5,7 +5,7 @@ def strong_capital_letter(str)
 end
 
 def to_id(str)
-  str.downcase.gsub(/ /, '-').gsub(/é/, 'e').gsub(/è/, 'e').gsub(/É/, 'e')
+  str.downcase.gsub(/ /, '-').gsub(/é/, 'e').gsub(/è/, 'e').gsub(/É/, 'e').gsub(/ï/, 'i')
 end
 
 def link_to(link, text = nil)
