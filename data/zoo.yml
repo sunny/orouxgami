@@ -164,13 +164,13 @@
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
-- nom: Dromadaire
-  classe: Mammifères
-  plieur: kerdekel
-  photographe: michel_v
-  pelage:
-  provenance: http://www.origami-club.com/en/
-  provenance_nom: Origami-Club
+#- nom: Dromadaire
+#  classe: Mammifères
+#  plieur: kerdekel
+#  photographe: michel_v
+#  pelage:
+#  provenance: http://www.origami-club.com/en/
+#  provenance_nom: Origami-Club
 
 - nom: Chauve-souris
   classe: Mammifères
