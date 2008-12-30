@@ -364,21 +364,21 @@
   provenance: http://www.origami-club.com/en/
   provenance_nom: Origami-Club
 
-- nom:  Pterophyllum
-  classe: Poissons
-  plieur: kerdekel
-  photographe: michel v
-  pelage: papier imprimerie
-  provenance: http://www.origami-club.com/en/
-  provenance_nom: Origami-Club
+#- nom:  Pterophyllum
+#  classe: Poissons
+#  plieur: kerdekel
+#  photographe: michel v
+#  pelage: papier imprimerie
+#  provenance: http://www.origami-club.com/en/
+#  provenance_nom: Origami-Club
 
-- nom:  Zanclidae
-  classe: Poissons
-  plieur: kerdekel
-  photographe: michel v
-  pelage: papier imprimerie
-  provenance: http://www.origami-club.com/en/
-  provenance_nom: Origami-Club
+#- nom:  Zanclidae
+#  classe: Poissons
+#  plieur: kerdekel
+#  photographe: michel v
+#  pelage: papier imprimerie
+#  provenance: http://www.origami-club.com/en/
+#  provenance_nom: Origami-Club
 
 - nom:  Otarie
   classe: Mammifères
