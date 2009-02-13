@@ -1,0 +1,11 @@
+This is the code for http://orouxgami.rousseur.org/ and serves as a good example of a small Sinatra application.
+
+Requires:
+
+  $ sudo gem install sinatra haml
+
+Start:
+
+  $ ruby orouxgami.rb
+
+
